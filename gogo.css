@@ -148,11 +148,7 @@ nav {
 .main-icons {
   gap: 20px;
   text-align: left !important;
-}
-.main-share-icon {
-  background: #f0efef;
-  border-radius: 100px;
-  padding: 5px 10px;
+  height: 30px;
 }
 .main-under {
   padding-top: 40px;
@@ -238,7 +234,21 @@ nav {
   bottom: 0px;
   color: white;
 }
-.calendar-grey {
+.ontsloh-lists {
+}
+.medee-right {
+  margin-top: 100px;
+}
+.ontsloh-medee_text {
+  font-size: 20px !important;
+  line-height: 26px !important;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+.medee-calendar {
+  gap: 30px;
+}
+.calendar-line {
   height: 7px;
   background-color: #efefef;
   border-radius: 20px;
@@ -249,8 +259,95 @@ nav {
   font-size: 13px;
   text-align: center;
 }
+.chgt {
+  background: #efefef;
+  height: 27px;
+  line-height: 18px;
+  width: 27px;
+  border-radius: 5px;
+  text-align: center;
+  border: none !important;
+  transition: all 0.2s ease-in-out;
+}
 .medee-header {
   font-size: 16px !important;
   line-height: 24px !important;
   font-weight: 700;
+  text-align: center;
+}
+.medee-header img {
+  width: 23px;
+  height: 26px;
+}
+.days {
+  width: 103px;
+}
+.margin-topS {
+  margin-top: 24px;
+}
+.medee-header:hover {
+  color: #00b0f4;
+}
+.medee-header:hover .calendar-line {
+  background-color: #00b0f4;
+  color: #00b0f4;
+}
+.medee-header:hover .calendar-text {
+  color: #00b0f4;
+}
+.days:hover .calendar-line {
+  background-color: #00b0f4;
+  color: #00b0f4;
+}
+.days:hover .calendar-text {
+  color: #00b0f4;
+}
+.onoodor {
+  justify-content: space-between;
+}
+.medee-list {
+  max-width: 720px;
+  gap: 20px;
+}
+.medee-lists {
+  margin-top: 40px;
+}
+.medee-list_img img {
+  height: 150px;
+  width: 210px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.medee-list_right h3 {
+  line-height: 26px !important;
+  font-size: 19px !important;
+  margin: 0 !important;
+  font-weight: 700;
+}
+.medee-list_right p {
+  height: 46px;
+  overflow: hidden;
+  color: #888;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.ontsloh-list {
+  width: 290px;
+  height: 265px;
+}
+.ontsloh-list img {
+  height: 170px;
+  width: 290px;
+
+  object-fit: cover;
+  border-radius: 5px;
+}
+.ontsloh-list h4 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.text-align {
+  text-align: center;
 }
