@@ -238,3 +238,19 @@ nav {
   bottom: 0px;
   color: white;
 }
+.calendar-grey {
+  height: 7px;
+  background-color: #efefef;
+  border-radius: 20px;
+  transition: all 0.4s ease-in-out;
+}
+.calendar-text {
+  color: #b7b6b6;
+  font-size: 13px;
+  text-align: center;
+}
+.medee-header {
+  font-size: 16px !important;
+  line-height: 24px !important;
+  font-weight: 700;
+}
